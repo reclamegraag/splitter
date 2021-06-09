@@ -13,7 +13,10 @@ Download the splitter.exe file from the "windows" folder. After opening a CMD (W
 
 ### Ubuntu
 
+Download the splitter from the "Ubuntu" folder. After running it without command line arguments the help docs will be displayed how to use it.
+
 ### Apple
 
+Download the splitter from the "Apple" folder. After running it without command line arguments the help docs will be displayed how to use it.
 
 [img1]:      https://static.thenounproject.com/png/583996-200.png
