@@ -42,6 +42,7 @@ func collectFlags() SplitterFlags {
 	if len(os.Args) == 1 {
 		println("Info\n\n\tThis tool splits files into multiple files and uses this format, where between [] means optional\n\tFormat\t\tsplitter [-copy-headers] -file file [-rows rows]\n\tExample\t\tsplitter -copy-headers C:\\Users\\Piet.Puk\\Downloads\\my-file.csv -rows 5000\n\nOptions\n")
 		flag.PrintDefaults()
+		os.Exit(1)
 	}
 
 	if *fileFlag == "" {
