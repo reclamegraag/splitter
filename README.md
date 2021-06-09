@@ -9,7 +9,7 @@ This is a command line tool for splitting big files into multiple files
 
 ### Windows
 
-Click on the "windows" folder, click on the file and click on "download". After opening a CMD (Windows button + "CMD") session, navigate to the folder where the splitter.exe file is (cd C:\path), type "splitter" and hit enter to display help info.
+Click on the "windows" folder, click on the file and click on "download". After opening a CMD (Windows button + "CMD") session, navigate to the folder where the splitter.exe file is (cd C:\path), type "splitter" and hit enter so that the help docs will be displayed how to use it.
 
 ### Ubuntu
 
