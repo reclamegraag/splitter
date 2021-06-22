@@ -60,7 +60,7 @@ func collectFlags() SplitterFlags {
 }
 
 func splitFile(filePath string, rows int, copyHeaders bool) (int64, int64) {
-	path := createFilePath(filePath)
+	path := CreateFilePath(filePath)
 	var readLines functions.StringSlice
 	var firstLine string
 
@@ -123,7 +123,7 @@ func closeFile(file *os.File) {
 	LogFatalError(err)
 }
 
-func createFilePath(filePath string) string {
+func CreateFilePath(filePath string) string {
 	var path = filePath
 	workingDirectory, err := os.Getwd()
 	LogError(err)
